@@ -14,7 +14,7 @@ import {
 } from "@mui/icons-material";
 
 import { watchlist } from "../data/data";
-// import { DoughnutChart } from "./DoughnoutChart";
+import { DoughnutChart } from "./DoughnoutChart";
 
 const labels = watchlist.map((subArray) => subArray["name"]);
 
@@ -91,8 +91,8 @@ const WatchList = () => {
           return <WatchListItem stock={stock} key={index} />;
         })}
       </ul>
-{/* 
-      <DoughnutChart data={data} /> */}
+
+      <DoughnutChart data={data} />
     </div>
   );
 };
