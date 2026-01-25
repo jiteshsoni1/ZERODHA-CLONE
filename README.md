@@ -1,4 +1,4 @@
-📈 Zerodha Clone — Stock Trading & Market Dashboard
+# Zerodha Clone — Stock Trading & Market Dashboard
 
 A full-stack clone of the Zerodha trading interface with real-time market data and authenticated dashboard features.
 
