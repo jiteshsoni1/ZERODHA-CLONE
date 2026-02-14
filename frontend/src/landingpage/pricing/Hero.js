@@ -2,14 +2,14 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="container">
+    <div className="container p-5 mt-5">
       <div className="row p-5 mt-5 border-bottom text-center">
-        <h1>Charges</h1>
+        <h1 className="fs-3">Charges</h1>
         <h3 className="text-muted mt-3 fs-5">List of all charges and taxe</h3>
       </div>
       <div className="row p-5 mt-5">
         <div className="col-4 p-4">
-          <img src="media/images/pricingEquity.svg" />
+          <img className="img-fluid w-75" src="media/images/pricingEquity.svg" />
           <h1 className="fs-3">Free Equity Delivery</h1>
           <p>
             All equity delivery investments (NSE, BSE), are absolutely free — ₹
@@ -17,8 +17,8 @@ function Hero() {
           </p>
         </div>
         <div className="col-4 p-4">
-          <img src="media/images/intradayTrades.svg" />
-          <h1 className="fs-3">Intraday and F&O trades</h1>
+          <img className="img-fluid w-75" src="media/images/intradayTrades.svg" />
+          <h1 className="fs-3 ">Intraday and F&O trades</h1>
           <p>
             Flat ₹ 20 or 0.03% (whichever is lower) per executed order on
             intraday trades across equity, currency, and commodity trades. Flat
@@ -26,7 +26,7 @@ function Hero() {
           </p>
         </div>
         <div className="col-4 p-4">
-          <img src="media/images/pricing0.svg" />
+          <img className="img-fluid w-75" src="media/images/pricing0.svg" />
           <h1 className="fs-3">Free direct MF</h1>
           <p>
             All direct mutual fund investments are absolutely free — ₹ 0

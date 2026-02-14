@@ -11,17 +11,17 @@ function Leftsec({
 }) {
   return (
     <div className="container mt-5">
-      <div className="row">
+      <div className="row p-5">
         <div className="col-6">
           <img src={imageURL} />
         </div>
          <div className="col-6 p-5 mt-5">
-          <h1>{productName}</h1>
+          <h1 className="fs-3">{productName}</h1>
           <p>{productDescription}</p>
           <div>
-            <a href={tryDemo}>Try Demo</a>
+            <a href={tryDemo}>Try Demo -- </a>
             <a href={learnMore} style={{ marginLeft: "50px" }}>
-              Learn More
+              Learn More --
             </a>
           </div>
           <div className="mt-3">

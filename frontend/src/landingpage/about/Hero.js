@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="container">
+    <div className="container" style={{ maxWidth: "1000px"  }}>
       <div className="row p-5 mt-5 mb-5">
         <h1 className="fs-4 text-center ">
           We pioneered the discount broking model in India.

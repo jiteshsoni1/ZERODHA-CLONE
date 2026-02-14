@@ -95,6 +95,19 @@ const Menu = () => {
           <div className="avatar">ZU</div>
           <p className="username">USERID</p>
         </div>
+        {isProfileDropdownOpen && (
+        <div className="dropDown">
+          <div className="dropDownItem">
+            <i class="fa-solid fa-arrow-right-to-bracket"></i> Login
+          </div>
+          <div className="dropDownItem">
+           <i class="fa-solid fa-person-circle-plus"></i> Signup
+          </div>
+          <div className="dropDownItem">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i> Log out
+          </div>
+        </div>
+      )}
       </div>
     </div>
   );

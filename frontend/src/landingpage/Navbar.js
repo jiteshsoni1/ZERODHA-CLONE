@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav
-      class="navbar navbar-expand-lg border-bottom"
+      class="navbar navbar-expand-lg border-bottom "
       style={{ backgroundColor: "#FFF" }}
     >
         <div class="container p-2">
       <Link class="navbar-brand" to="/">
-        <img src="media\images\logo.svg" style={{ width: "25%" }} />
+        <img src="media\images\logo.svg" style={{ width: "22%" }} />
       </Link>
       <button
         class="navbar-toggler"
@@ -24,7 +24,7 @@ function Navbar() {
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <form class="form-inline my-2 my-lg-0">
+        <form class="form-inline my-2 my-lg-0 fs-6 m-auto">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <Link class="nav-link active" to="/signup">

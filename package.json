@@ -1,0 +1,32 @@
+{
+  "name": "zerodha-clone",
+  "version": "1.0.0",
+  "description": "A full-stack clone of the Zerodha trading interface with real-time market data and authenticated dashboard features.",
+  "main": "index.js",
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "react": "^19.2.3",
+    "react-chartjs-2": "^5.3.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+   "scripts": {
+   "backend": "npm start --prefix backend",
+    "dashboard": "npm start --prefix dashboard",
+      "frontend": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\" \"npm run dashboard\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiteshsoni1/ZERODHA-CLONE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jiteshsoni1/ZERODHA-CLONE/issues"
+  },
+  "homepage": "https://github.com/jiteshsoni1/ZERODHA-CLONE#readme"
+}

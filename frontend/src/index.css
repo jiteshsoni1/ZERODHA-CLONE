@@ -17,12 +17,8 @@ code {
 }
 
 #supporthero {
-  background-color: rgb(56, 126, 209);
-  color: white;
-}
-
-#supporthero a{
-  color: white;
+  background-color: #f8f8ff;
+  color: black;
 }
 
 #supportWrapper {
