@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Summary = () => {
   return (
@@ -57,6 +58,15 @@ const Summary = () => {
         </div>
         <hr className="divider" />
       </div>
+      <div className="orders">
+      <div className="no-orders">
+        <p>You don't have any stocks in your DEMAT yet. Get started with absolutely free equity investments.</p>
+
+        <Link to={"/"} className="btn">
+          Start investing
+        </Link>
+      </div>
+    </div>
     </>
   );
 };

@@ -20,7 +20,7 @@ const Menu = () => {
 
   return (
     <div className="menu-container">
-      <img src="logo.png" style={{ width: "50px" }}/>
+      <img src="logo.png" style={{ width: "20px" }}/>
       <div className="menus">
         <ul>
           <li>
@@ -92,8 +92,8 @@ const Menu = () => {
         </ul>
         <hr />
         <div className="profile" onClick={handleProfileClick}>
-          <div className="avatar">ZU</div>
-          <p className="username">USERID</p>
+          <div className="avatar">JS</div>
+          <p className="username">ACT248</p>
         </div>
         {isProfileDropdownOpen && (
         <div className="dropDown">
