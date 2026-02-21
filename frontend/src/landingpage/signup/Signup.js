@@ -1,92 +1,62 @@
 import React from "react";
 
-function Signup() {
+function Signup({ imageURL, productName, productDescription1 }) {
   return (
-    <section className="py-5" style={{ backgroundColor: "#f7f7f7" }}>
-      <div className="container">
-        
-        <div className="text-center mb-5">
-          <h2 className="fw-normal">
-            Investment options with Zerodha demat account
-          </h2>
+    <div className="container mt-5">
+      <div className="row align-items-center">
+        <div className="col-lg-7 col-md-6 text-center">
+          <img
+            src={imageURL}
+            alt="Zerodha Ecosystem"
+            className="img-fluid"
+            style={{ maxWidth: "90%" }}
+          />
         </div>
-
-        {/* Row 1 */}
-        <div className="row justify-content-center mb-5">
-          {/* Stocks */}
-          <div className="col-md-5 d-flex align-items-start mb-4">
-            <img
-              src="media/images/stocks-acop.svg"
-              alt=""
-              className="me-4"
-              style={{ width: "60px" }}
-            />
-            <div>
-              <h5>Stocks</h5>
-              <p className="text-muted mb-0">
-                Invest in all exchange-listed securities
-              </p>
+        <div className="col-lg-5 col-md-6 p-5">
+          <h1 className="fs-2 fw-normal mb-3">{productName}</h1>
+          <p className="text-muted mb-4 fs-5">{productDescription1}</p>
+          <div style={{ maxWidth: "350px" }}>
+            <div className="input-group mb-3 border rounded p-1">
+              <span className="input-group-text bg-white border-0">
+                <img
+                  src="https://flagcdn.com/w20/in.png"
+                  alt="India Flag"
+                  className="me-2"
+                />
+                +91
+              </span>
+              <input
+                type="text"
+                className="form-control border-0 shadow-none"
+                placeholder="Enter your mobile number"
+              />
             </div>
+            <button
+              className="btn btn-primary w-100 py-2 fs-5 mb-4"
+              style={{ backgroundColor: "#387ed1" }}
+            >
+              Get OTP
+            </button>
+            <p className="text-muted small mb-4">
+              By proceeding, you agree to the Zerodha{" "}
+              <a href="#" className="text-decoration-none">
+                terms
+              </a>{" "}
+              &{" "}
+              <a href="#" className="text-decoration-none">
+                privacy policy
+              </a>
+            </p>
+            <p className="small">
+              Looking to open NRI account?{" "}
+              <a href="#" className="text-decoration-none">
+                Click here
+              </a>
+            </p>
           </div>
-
-          {/* Mutual Funds */}
-          <div className="col-md-5 d-flex align-items-start mb-4">
-            <img
-              src="media/images/mf-acop.svg"
-              alt=""
-              className="me-4"
-              style={{ width: "60px" }}
-            />
-            <div>
-              <h5>Mutual funds</h5>
-              <p className="text-muted mb-0">
-                Invest in commission-free direct mutual funds
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="row justify-content-center mb-5">
-          {/* IPO */}
-          <div className="col-md-5 d-flex align-items-start mb-4">
-            <img
-              src="media/images/ipo-acop.svg"
-              alt=""
-              className="me-4"
-              style={{ width: "60px" }}
-            />
-            <div>
-              <h5>IPO</h5>
-              <p className="text-muted mb-0">
-                Apply to the latest IPOs instantly via UPI
-              </p>
-            </div>
-          </div>
-
-          {/* Futures & Options */}
-          <div className="col-md-5 d-flex align-items-start mb-4">
-            <img
-              src="media/images/fo-acop.svg"
-              alt=""
-              className="me-4"
-              style={{ width: "60px" }}
-            />
-            <div>
-              <h5>Futures & options</h5>
-              <p className="text-muted mb-0">
-                Hedge and mitigate market risk through simplified F&O trading
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Button */}
-        <div className="text-center">
-          <button className="btn btn-primary px-5 py-2">
-            Explore Investments
-          </button>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

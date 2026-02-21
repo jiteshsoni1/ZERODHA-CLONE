@@ -28,7 +28,7 @@ function Navbar() {
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <Link class="nav-link active" to="/signup">
-                Signup <span class="sr-only">(current)</span>
+                Signup <span class="sr-only"></span>
               </Link>
             </li>
             <li class="nav-item">

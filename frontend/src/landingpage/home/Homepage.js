@@ -10,14 +10,11 @@ import Footer from "../Footer";
 function Homepage() {
   return (
     <>
-      
       <Hero />
-     
       <Stats />
       <Pricing />
       <Education />
       <Openaccount />
-     
     </>
   );
 }

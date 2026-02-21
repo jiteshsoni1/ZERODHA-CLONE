@@ -2,8 +2,8 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="container p-5 mt-5">
-      <div className="row p-5 mt-5 border-bottom text-center">
+    <div className="container  mt-5">
+      <div className="row p-5 mt-5 text-center">
         <h1 className="fs-3">Charges</h1>
         <h3 className="text-muted mt-3 fs-5">List of all charges and taxe</h3>
       </div>
